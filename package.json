@@ -1,0 +1,19 @@
+{
+  "name": "bandezar-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bandezar: przybornik zespołu na Twoim koncie Cloudflare",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.45.0"
+  },
+  "cloudflare": {
+    "bindings": {
+      "DB": {
+        "description": "Baza zespołu (Cloudflare D1). Zakłada się sama."
+      }
+    }
+  }
+}

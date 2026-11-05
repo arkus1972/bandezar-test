@@ -1,0 +1,22 @@
+// Bandezar – INSTALACJA NA KONCIE ZESPOŁU (opis: dokumentacja/INSTALACJA-ZESPOLU.md).
+// Zespół, który kupił Bandezara, instaluje go przyciskiem „Deploy to Cloudflare” na swoim darmowym koncie Cloudflare.
+// Cloudflare sam zakłada bazę D1 (po nazwie niżej), tabele zakłada serwer przy pierwszym otwarciu. Bez R2, więc bez karty płatniczej.
+// TRYB=zespol: jeden zespół; pierwsza osoba wpisuje kod licencji i zostaje liderem; koledzy wchodzą linkami zaproszeń (bez poczty).
+// Ten sam kod co wersja bandezar-app (worker-app.js, serwer/baza.mjs).
+{
+  "name": "bandezar-test",
+  "main": "worker-app.js",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "app/dist/web",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*", "/", "/index.html"]
+  },
+  "observability": { "enabled": true },
+  "d1_databases": [{ "binding": "DB", "database_name": "bandezar","database_id": "d6fd1ede-ca69-4e14-96d3-9b7b900e279a" }],
+  // Pliki z Mediów: bez R2 (R2 na nowym koncie wymaga karty płatniczej), w schowku Durable Object „Pliki” (serwer/pliki-do.mjs).
+  "durable_objects": { "bindings": [{ "name": "ZESPOL", "class_name": "Zespol" }, { "name": "SCHOWEK", "class_name": "Pliki" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Zespol"] }, { "tag": "v2", "new_sqlite_classes": ["Pliki"] }],
+  "vars": { "TRYB": "zespol", "SEND_DOMAINS": "-", "REPLY_DOMAINS": "-" },
+  "previews": { "vars": { "TRYB": "zespol", "SEND_DOMAINS": "", "REPLY_DOMAINS": "" } }
+}

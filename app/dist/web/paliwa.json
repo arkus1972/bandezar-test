@@ -1,0 +1,166 @@
+{
+ "countries": {
+  "AT": {
+   "cur": "EUR",
+   "on": 2.148,
+   "pb": 1.747
+  },
+  "BE": {
+   "cur": "EUR",
+   "lpg": 1.109,
+   "on": 2.398,
+   "pb": 1.914
+  },
+  "BG": {
+   "cur": "EUR",
+   "lpg": 0.641,
+   "on": 1.893,
+   "pb": 1.605
+  },
+  "CY": {
+   "cur": "EUR",
+   "on": 2.002,
+   "pb": 1.716
+  },
+  "CZ": {
+   "cur": "CZK",
+   "lpg": 23.26,
+   "on": 48.16,
+   "pb": 42.91
+  },
+  "DE": {
+   "cur": "EUR",
+   "lpg": 1.13,
+   "on": 2.282,
+   "pb": 2.128
+  },
+  "DK": {
+   "cur": "DKK",
+   "on": 18.9,
+   "pb": 18.67
+  },
+  "EE": {
+   "cur": "EUR",
+   "lpg": 0.994,
+   "on": 2.113,
+   "pb": 1.863
+  },
+  "ES": {
+   "cur": "EUR",
+   "lpg": 1.106,
+   "on": 1.898,
+   "pb": 1.73
+  },
+  "FI": {
+   "cur": "EUR",
+   "on": 2.433,
+   "pb": 2.205
+  },
+  "FR": {
+   "cur": "EUR",
+   "lpg": 1.044,
+   "on": 2.371,
+   "pb": 2.158
+  },
+  "GR": {
+   "cur": "EUR",
+   "on": 2.139,
+   "pb": 2.125
+  },
+  "HR": {
+   "cur": "EUR",
+   "lpg": 1.037,
+   "on": 2.015,
+   "pb": 1.749
+  },
+  "HU": {
+   "cur": "HUF",
+   "lpg": 384.09,
+   "on": 718.07,
+   "pb": 635.3
+  },
+  "IE": {
+   "cur": "EUR",
+   "on": 2.122,
+   "pb": 1.966
+  },
+  "IT": {
+   "cur": "EUR",
+   "lpg": 0.79,
+   "on": 2.238,
+   "pb": 2.001
+  },
+  "LT": {
+   "cur": "EUR",
+   "lpg": 0.937,
+   "on": 2.223,
+   "pb": 1.87
+  },
+  "LU": {
+   "cur": "EUR",
+   "lpg": 0.972,
+   "on": 2.11,
+   "pb": 1.759
+  },
+  "LV": {
+   "cur": "EUR",
+   "lpg": 1.077,
+   "on": 2.099,
+   "pb": 1.868
+  },
+  "MT": {
+   "cur": "EUR",
+   "on": 1.21,
+   "pb": 1.34
+  },
+  "NL": {
+   "cur": "EUR",
+   "lpg": 1.02,
+   "on": 2.468,
+   "pb": 2.284
+  },
+  "PL": {
+   "cur": "PLN",
+   "lpg": 3.75,
+   "on": 7.97,
+   "pb": 6.4
+  },
+  "PT": {
+   "cur": "EUR",
+   "lpg": 0.974,
+   "on": 2.205,
+   "pb": 2.006
+  },
+  "RO": {
+   "cur": "RON",
+   "lpg": 4.72,
+   "on": 11.07,
+   "pb": 10.05
+  },
+  "SE": {
+   "cur": "SEK",
+   "on": 22.61,
+   "pb": 17.06
+  },
+  "SI": {
+   "cur": "EUR",
+   "lpg": 1.016,
+   "on": 1.941,
+   "pb": 1.675
+  },
+  "SK": {
+   "cur": "EUR",
+   "lpg": 0.887,
+   "on": 1.979,
+   "pb": 1.785
+  }
+ },
+ "date": "2026-11-02",
+ "ecb": {
+  "date": "2026-11-04",
+  "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+ },
+ "fetched": "2026-11-05T14:56Z",
+ "source": "Komisja Europejska, Weekly Oil Bulletin (ceny z podatkami)",
+ "url": "https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en"
+}

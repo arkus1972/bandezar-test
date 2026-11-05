@@ -1,0 +1,27 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  Strict-Transport-Security: max-age=31536000
+
+/sw.js
+  Cache-Control: no-cache
+
+/
+  Cache-Control: no-cache
+
+/index.html
+  Cache-Control: no-cache
+
+/paliwa.json
+  Access-Control-Allow-Origin: *
+  Cache-Control: max-age=3600
+
+/radio.json
+  Access-Control-Allow-Origin: *
+  Cache-Control: max-age=600
+
+/staty.json
+  Access-Control-Allow-Origin: *
+  Cache-Control: max-age=3600
